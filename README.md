@@ -35,7 +35,6 @@ The notebooks are defined as follows:
 
 The models folder include several sub-folders that contain the models that we have trained. 
 - `all_data`: contains the models in free training mode contains several pickle files that contain useful dataframes.
-- `plots`: contains some of but not all the plots that we have generated.
 - `split_data`: pickled BKT models that have been used to train and test our models .
 
 ## How to run
