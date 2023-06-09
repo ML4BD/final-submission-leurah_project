@@ -1,1 +1,28 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/IJCJlbxQ)
+# Welcome to the Leuraht's MLBD2023 Repository Page!
+
+## About
+This repository is for the MLBD2023 course at EPFL. It contains the project that we have done during the course through the Fall 2023 semester.
+
+## Project
+The work evloves about predicting user performance of the Calcularis dataset.
+
+
+## Authors
+- Youssef El Ouazzani (DS)
+- Mohamed Yassine Aouam (DS)
+- Mohamed Badr Taddist (CS)
+  
+## Structure
+The project is divided into several notebooks and python scripts. The data used must be stored in the `data` folder. The notebooks are stored in the root folder along with the python scripts. 
+The models folder include several sub-folders that contain the models that we have trained. 
+- `all_data`: contains the models in free training mode contains several pickle files that contain useful dataframes.
+- `plots`: contains some of but not all the plots that we have generated.
+- `split_data`: dataframes that have been used to train and test some of the models .
+
+## How to run
+To run the notebooks, you need to install the requirements in the `requirements.txt` file. You can do so by running the following command in the terminal:
+```
+pip install -r requirements.txt
+```
+Some of the pickle files are too large so we provide a zipped version of them. You will have to unzip in the same folder to be able to use them.
+
