@@ -44,11 +44,15 @@ To run the notebooks, you need to install the requirements in the `requirements.
 pip install -r requirements.txt
 ```
 
-&#9888; **Some of the pickle files are too large so we provide a zipped version of them. You will have to unzip in the same folder to be able to use them.**
+&#9888; **Some of the pickle files are too large so we provide a zipped version of them. You will have download them from this [link](https://drive.google.com/drive/folders/1QDF7zStLw8aasRc6iBpCiGp5go9HqoYL?usp=sharing). Then unzip every zip file in the folder with the same name to be able to use them.** 
+- **Unzip `data.zip` content in `data/` folder**
+- **Unzip `models.zip` content in `models/` folder**
 
-1. To generate the skill clusters first run the `skill_kmeans.ipynb` notebook. It will generate the necessary pickle files that will be used in the `skill_clustering.ipynb` notebook.
-2. Preprocess the categorical clusters by running the `skill_clustering.ipynb` notebook. It will generate the final pickle files wth regards to skills categories that will be used in the `final-calcularis-LeuRah.ipynb` notebook.
-3. Run the `final-calcularis-LeuRah.ipynb` notebook to preprocess calcularis data, train the models, generate the final results and plots. The notebook is divided into several sections that are clearly defined. You can run the notebook from the beginning to the end or run each section separately.
+
+#
+2. To generate the skill clusters first run the `skill_kmeans.ipynb` notebook. It will generate the necessary pickle files that will be used in the `skill_clustering.ipynb` notebook.
+3. Preprocess the categorical clusters by running the `skill_clustering.ipynb` notebook. It will generate the final pickle files wth regards to skills categories that will be used in the `final-calcularis-LeuRah.ipynb` notebook.
+4. Run the `final-calcularis-LeuRah.ipynb` notebook to preprocess calcularis data, train the models, generate the final results and plots. The notebook is divided into several sections that are clearly defined. You can run the notebook from the beginning to the end or run each section separately.
 
 
 Finally, we hope that you will enjoy our work and that it will be useful for the calcularis team. If you have any questions, please do not hesitate to contact us.
