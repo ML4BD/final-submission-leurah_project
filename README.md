@@ -22,7 +22,7 @@ Please refer to the report for more details.
 
 ## Authors
 - Youssef El Ouazzani (DS)
-- Mohamed Yassine Aouam (DS)
+- Mohamed Yassine Aouame (DS)
 - Mohamed Badr Taddist (CS)
   
 ## Structure
