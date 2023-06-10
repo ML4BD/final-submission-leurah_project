@@ -3,7 +3,7 @@
 ![LeuRah](images/leurah.jpeg)
 
 ## About
-This repository is for the MLBD2023 course at EPFL. It contains the project that we have done during the course through the Spring 2023 semester.
+This repository is for the MLBD2023 course. It contains our Calcularis Data Analysis project.
 
 ## Project
 The work evloves about predicting user performance of the Calcularis dataset,
@@ -34,8 +34,8 @@ The notebooks are defined as follows:
 
 
 The models folder include several sub-folders that contain the models that we have trained. 
-- `all_data`: contains the models in free training mode contains several pickle files that contain useful dataframes.
-- `split_data`: pickled BKT models that have been used to train and test our models .
+- `all_data`: contains several pickle BKT models trained on whole data.
+- `split_data`: contains several pickle BKT models trained on a 80/20 train-test split.
 
 ## How to run
 To run the notebooks, you need to install the requirements in the `requirements.txt` file. You can do so by running the following command in the terminal:
